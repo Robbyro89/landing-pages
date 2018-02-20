@@ -1,0 +1,528 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.whole {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+
+}
+
+.whole h2 {
+	font-size: 25px;
+  font-weight: bolder;
+   width: 80%;
+   text-align: center;
+}
+.top {
+
+  height: 82vh;
+  background: #4574ac; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4574ac, #618db8); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4574ac, #618db8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-left: 50px;
+  padding-right: 50px;
+  overflow: hidden;
+
+}
+
+.top nav {
+	width: 100%;
+}
+
+.topmenu {
+    list-style-type: none;
+   display: flex;
+   justify-content: flex-end;
+}
+
+
+.logoch {
+	font-size: 200%;
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+
+/*Dropdown Menu */
+  /* Dropdown Button */
+
+
+.dropdown {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.dropcontainer {
+	display: inline-block;
+}
+
+
+.dropbtn {
+	display: inline-block;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	color: blue;
+}
+
+/* Show the dropdown menu on hover */
+.dropcontainer:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropbtn:hover {
+    color: #999;
+}
+
+
+/* bouton get started */
+.navbutton {
+	background-color: transparent;
+	border: 2px solid #E9CA2C;
+	color : #E9CA2C;
+	border-radius: 3px;
+	padding: 15px;
+}
+
+.navbutton:hover {
+	background-color: #E9CA2C;
+	color: black;
+}
+
+/* section centrale et video */
+.contenttop {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	height: 100%;
+}
+
+.catch {
+	width: 40%;
+	color: white;
+}
+
+.catch h1 {
+	font-size: 200%;
+}
+
+video {
+  pointer-events: none;
+  	height: 100%;
+	width: auto;
+}
+
+.catch button {
+	background-color: #E9CA2C;
+	color: #314B68;
+	border-radius: 3px;
+	padding: 25px;
+	font-weight: bold;
+	border : none;
+	font-size: 100%;
+}
+
+.catch button:hover {
+	background-color: #BAA333;
+	opacity: 1;
+}
+
+/* section références */
+.references {
+	height: 50vh;
+	width: 98%;
+	color: #102533;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	flex-wrap: wrap;
+  margin-top: 60px;
+  margin-left: 30px;
+  padding: 30px;
+  justify-content: space-evenly;
+	width: 90%;
+}
+
+.logos {
+	width: 100px;
+	height: 50px;
+	margin-right:20px;
+}
+
+/* section next gen*/
+
+.nextgen {
+	background-color: #f5f9fb;
+	border-top : 1px solid #c1c1c1;
+	border-bottom : 1px solid #c1c1c1;
+  padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+
+
+}
+
+.nextgen p {
+	color: gray;
+}
+
+.nextgencont {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	justify-content: center;
+}
+
+.arguments{
+	width: 25%;
+	margin : 30px;
+	font-size: 90%;
+}
+
+.arguments a{
+	color: #6CC496;
+text-decoration: none;
+}
+
+/* industry needs*/
+
+.industryneedssection {
+  padding-top: 50px;
+  padding-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mosaique {
+	position: relative;
+	margin: 10px;
+}
+
+.mosaique p {
+	position: absolute;
+    top: 100px;
+    left: 16px;
+    color: white;
+    font-weight: bold;
+    background-color: gray;
+    font-size: 90%;
+}
+
+.mosaique img {
+	width: 260px;
+	height: 160px;
+}
+
+
+
+.industryneeds {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenthover {
+	width: 210px;
+  height: 110px;
+  padding: 25px;
+  position: absolute;
+ top: 0px;
+  left: 0;
+ color: white;
+ font-size: 85%;
+ display: none;
+ background: rgba(60,121,187,0.82);
+}
+
+.mosaique:hover .contenthover {
+	display: block;
+}
+
+.mosaique:hover p {
+	display: none;
+}
+
+.contact {
+	background-color: #f5f9fb;
+	width: 260px;
+	height: 160px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	justify-content: center;
+	align-items: space-around;
+	border: 1px solid #DDDDDE;
+}
+
+.contact a {
+	text-decoration: none;
+	color: #3C79BB;
+
+}
+
+/* Best in compliance*/
+
+.security {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #f5f9fb;
+	border-top : 1px solid #c1c1c1;
+	border-bottom : 1px solid #c1c1c1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 95%;
+
+
+}
+
+.secucontaniner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	margin-top: 20px;
+}
+
+.screening,.secucompliance,.secusecu {
+ background-color: white;
+ border: 1px solid #e1e1e1;
+ color: gray;
+ width: 360px;
+ height: 300px;
+ padding: 15px;
+ margin-left : 20px;
+ display: flex;
+flex-direction: column;
+}
+
+.screening h3,.secucompliance h3,.secusecu h3 {
+ color: black;
+ font-weight: bold;
+}
+
+.screening a,.secucompliance a,.secusecu a {
+ color: #3F7AB9;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.coupleicon {
+	display: flex;
+}
+
+.screening {
+	border-bottom: 6px solid #3C79BB;
+}
+
+.secucompliance {
+	border-bottom: 6px solid #6CC496;
+}
+
+.secusecu {
+	border-bottom: 6px solid #E9CA2C;
+}
+
+/* top*/
+.applicants {
+	padding-bottom: 40px;
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bold;
+}
+
+
+.applicantcontainer {
+	display: flex;
+	width: 70%;
+}
+
+.applicantright {
+	width: 40%;
+	padding-left: 10%;
+}
+
+.applicants li {
+	color: gray;
+	font-size: 95%;
+}
+
+.applicants a {
+	color : #3F7AB9;
+	text-decoration: none;
+}
+
+.cite {
+	color: #808080;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 110%;
+}
+
+.grubapp {
+	color : gray;
+}
+
+/* CTA take tour*/
+.taketour {
+	background-color: #3f7ab9;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: white;
+	margin-bottom: 0;
+}
+
+.taketour img {
+
+	width: 20%;
+	height: auto;
+}
+
+.taketour h3 {
+
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.tourcenter {
+	width: 20%;
+}
+
+.taketour button {
+	width: 20%;
+	background-color: #112532;
+	padding: 25px;
+	color: white;
+	border : none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+
+/*footer*/
+.chfooter {
+	background-color: #102533;
+	color: white;
+	padding-top: 40px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	}
+
+.surfooter h4 {
+	color: #8FA1B2;
+	border-bottom: 1px solid #3d4d56;
+}
+
+.surfooter {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.surfooter li {
+	list-style-type: none;
+}
+
+.surfooter li:hover {
+	list-style-type: none;
+	border-bottom: 1px solid #46A6C7;
+}
+
+.footlist {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.twitter {
+	width: 20px;
+	height: auto;
+}
+
+.subfooter {
+	color: #90A1B1;
+	width: 30%;
+
+}
+
+.footer-info ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+}
+
+.subfooter li {
+	list-style-type: none;
+}
+
+.subfooter a {
+	text-decoration: none;
+	color: #90A1B1;
+}
+
+.subfooter li:hover {
+	border-bottom: 1px solid #46A6C7;
+}
