@@ -1,0 +1,935 @@
+@charset "UTF-8";
+/* line 6, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.whole {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+/* line 18, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.whole h2 {
+  font-size: 25px;
+  font-weight: bolder;
+  width: 80%;
+  text-align: center;
+}
+
+/* line 24, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.top {
+  height: 82vh;
+  background: #4574ac;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4574ac, #618db8);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4574ac, #618db8);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow: hidden;
+}
+
+/* line 36, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.top nav {
+  width: 100%;
+}
+
+/* line 40, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.topmenu {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 47, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.logoch {
+  font-size: 200%;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+/*Dropdown Menu */
+/* Dropdown Button */
+/* line 58, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.dropdown {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* line 65, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.dropcontainer {
+  display: inline-block;
+}
+
+/* line 70, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.dropbtn {
+  display: inline-block;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+}
+
+/* Dropdown Content (Hidden by Default) */
+/* line 83, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+
+/* Links inside the dropdown */
+/* line 91, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* line 99, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.dropdown-content a:hover {
+  color: blue;
+}
+
+/* Show the dropdown menu on hover */
+/* line 104, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.dropcontainer:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* line 109, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.dropbtn:hover {
+  color: #999;
+}
+
+/* bouton get started */
+/* line 115, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.navbutton {
+  background-color: transparent;
+  border: 2px solid #E9CA2C;
+  color: #E9CA2C;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+/* line 123, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.navbutton:hover {
+  background-color: #E9CA2C;
+  color: black;
+}
+
+/* section centrale et video */
+/* line 129, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.contenttop {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 100%;
+}
+
+/* line 137, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.catch {
+  width: 40%;
+  color: white;
+}
+
+/* line 142, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.catch h1 {
+  font-size: 200%;
+}
+
+/* line 146, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+video {
+  pointer-events: none;
+  height: 100%;
+  width: auto;
+}
+
+/* line 152, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.catch button {
+  background-color: #E9CA2C;
+  color: #314B68;
+  border-radius: 3px;
+  padding: 25px;
+  font-weight: bold;
+  border: none;
+  font-size: 100%;
+}
+
+/* line 162, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.catch button:hover {
+  background-color: #BAA333;
+  opacity: 1;
+}
+
+/* section références */
+/* line 168, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.references {
+  height: 50vh;
+  width: 98%;
+  color: #102533;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 179, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-left: 30px;
+  padding: 30px;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+/* line 189, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.logos {
+  width: 100px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+/* section next gen*/
+/* line 197, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.nextgen {
+  background-color: #f5f9fb;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* line 210, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.nextgen p {
+  color: gray;
+}
+
+/* line 214, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.nextgencont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+}
+
+/* line 221, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.arguments {
+  width: 25%;
+  margin: 30px;
+  font-size: 90%;
+}
+
+/* line 227, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.arguments a {
+  color: #6CC496;
+  text-decoration: none;
+}
+
+/* industry needs*/
+/* line 234, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.industryneedssection {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 243, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.mosaique {
+  position: relative;
+  margin: 10px;
+}
+
+/* line 248, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.mosaique p {
+  position: absolute;
+  top: 100px;
+  left: 16px;
+  color: white;
+  font-weight: bold;
+  background-color: gray;
+  font-size: 90%;
+}
+
+/* line 258, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.mosaique img {
+  width: 260px;
+  height: 160px;
+}
+
+/* line 265, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.industryneeds {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 275, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.contenthover {
+  width: 210px;
+  height: 110px;
+  padding: 25px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  color: white;
+  font-size: 85%;
+  display: none;
+  background: rgba(60, 121, 187, 0.82);
+}
+
+/* line 288, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.mosaique:hover .contenthover {
+  display: block;
+}
+
+/* line 292, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.mosaique:hover p {
+  display: none;
+}
+
+/* line 296, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.contact {
+  background-color: #f5f9fb;
+  width: 260px;
+  height: 160px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: center;
+  align-items: space-around;
+  border: 1px solid #DDDDDE;
+}
+
+/* line 309, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.contact a {
+  text-decoration: none;
+  color: #3C79BB;
+}
+
+/* Best in compliance*/
+/* line 317, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.security {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f9fb;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 95%;
+}
+
+/* line 332, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.secucontaniner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* line 340, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.screening, .secucompliance, .secusecu {
+  background-color: white;
+  border: 1px solid #e1e1e1;
+  color: gray;
+  width: 360px;
+  height: 300px;
+  padding: 15px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 352, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.screening h3, .secucompliance h3, .secusecu h3 {
+  color: black;
+  font-weight: bold;
+}
+
+/* line 357, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.screening a, .secucompliance a, .secusecu a {
+  color: #3F7AB9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 363, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.coupleicon {
+  display: flex;
+}
+
+/* line 367, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.screening {
+  border-bottom: 6px solid #3C79BB;
+}
+
+/* line 371, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.secucompliance {
+  border-bottom: 6px solid #6CC496;
+}
+
+/* line 375, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.secusecu {
+  border-bottom: 6px solid #E9CA2C;
+}
+
+/* top*/
+/* line 380, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.applicants {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* line 391, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.applicantcontainer {
+  display: flex;
+  width: 70%;
+}
+
+/* line 396, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.applicantright {
+  width: 40%;
+  padding-left: 10%;
+}
+
+/* line 401, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.applicants li {
+  color: gray;
+  font-size: 95%;
+}
+
+/* line 406, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.applicants a {
+  color: #3F7AB9;
+  text-decoration: none;
+}
+
+/* line 411, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.cite {
+  color: #808080;
+  font-family: serif;
+  font-weight: normal;
+  font-size: 110%;
+}
+
+/* line 418, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.grubapp {
+  color: gray;
+}
+
+/* CTA take tour*/
+/* line 423, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.taketour {
+  background-color: #3f7ab9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+/* line 432, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.taketour img {
+  width: 20%;
+  height: auto;
+}
+
+/* line 438, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.taketour h3 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+/* line 444, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.tourcenter {
+  width: 20%;
+}
+
+/* line 448, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.taketour button {
+  width: 20%;
+  background-color: #112532;
+  padding: 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+/*footer*/
+/* line 461, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.chfooter {
+  background-color: #102533;
+  color: white;
+  padding-top: 40px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+/* line 472, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.surfooter h4 {
+  color: #8FA1B2;
+  border-bottom: 1px solid #3d4d56;
+}
+
+/* line 477, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.surfooter {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/* line 484, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.surfooter li {
+  list-style-type: none;
+}
+
+/* line 488, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.surfooter li:hover {
+  list-style-type: none;
+  border-bottom: 1px solid #46A6C7;
+}
+
+/* line 493, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.footlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 499, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.twitter {
+  width: 20px;
+  height: auto;
+}
+
+/* line 504, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.subfooter {
+  color: #90A1B1;
+  width: 30%;
+}
+
+/* line 510, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.footer-info ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* line 517, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.subfooter li {
+  list-style-type: none;
+}
+
+/* line 521, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.subfooter a {
+  text-decoration: none;
+  color: #90A1B1;
+}
+
+/* line 526, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/checkr.scss */
+.subfooter li:hover {
+  border-bottom: 1px solid #46A6C7;
+}
+/* line 1, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#First_part {
+  font-family: "League Spartan", sans-serif;
+  font-size: 16px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+/* line 10, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#list1 {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 19, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.flynn li.item {
+  color: #1bb45e;
+  font-weight: 900;
+  padding: 0.88em 0.56em;
+  font-size: 20px;
+}
+
+/* line 28, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.flynn li.btn {
+  font-weight: 900;
+  background-color: #1bb45e;
+  color: white;
+  font-size: 20px;
+  border-radius: 1.82em;
+  padding: 0.88em 1.36em;
+}
+
+/* {
+	border: 1px solid black;
+}*/
+/* line 45, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+li.brand {
+  margin-left: -40px;
+  padding-top: 0.56em;
+  left: 0;
+}
+
+/* line 51, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#list_items {
+  display: flex;
+}
+
+/* line 55, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+ul#list1 > div > li.item > a:link {
+  text-decoration: none;
+  color: #1bb45e;
+}
+
+/* line 61, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+ul#list1 > div > li.btn > a:link {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 68, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+ul#list1 > div > li.item > a:visited {
+  text-decoration: none;
+  color: #1bb45e;
+}
+
+/* line 73, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+ul#list1 > div > li.item:hover {
+  background-color: grey;
+}
+
+/* line 77, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+ul#list1 > div > li.item:hover a {
+  color: white;
+}
+
+/* line 82, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.flynn h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+
+/* line 89, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.video-js {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+/* line 96, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.flynn ul:not(#exception) {
+  list-style-type: none;
+}
+
+/* line 100, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#list2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 106, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.list3 {
+  border: 2px solid #cccac7;
+  width: calc(100%/3);
+  text-align: center;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 20px;
+  color: #1bb45e;
+}
+
+/* line 117, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.hnav > ul > li > a:link {
+  text-decoration: none;
+  color: #1bb45e;
+}
+
+/* line 124, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.list3:hover {
+  background-color: grey;
+}
+
+/* line 129, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.hnav > ul > li:hover a {
+  color: white;
+}
+
+/* line 133, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.content-container narrow-centered {
+  width: 60% !important;
+}
+
+/* line 137, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.flynn h2 {
+  margin-top: 30px;
+  font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+  font-size: 3.425rem;
+  font-weight: 900;
+}
+
+/* line 146, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+ul#exception > li:hover a {
+  border-bottom: 1px dotted green;
+  text-decoration: none;
+}
+
+/* line 151, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.try-now-btn {
+  font-weight: 900;
+  background-color: #1bb45e;
+  color: white;
+  font-size: 20px;
+  border-radius: 1.82em;
+  padding: 0.88em 1.36em;
+  text-decoration: none;
+}
+
+/* line 162, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.centered {
+  text-align: center;
+}
+
+/* line 166, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.flynn a {
+  text-decoration: none;
+}
+
+/* line 170, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#central-text {
+  width: 60%;
+  margin: auto;
+}
+
+/* line 175, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.h4 {
+  font-size: 1.125rem;
+  font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #727272;
+  line-height: 0.35em;
+}
+
+/* line 182, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.content {
+  font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #727272;
+  line-height: 1.75em;
+}
+
+/* line 188, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.flynn h3 {
+  font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: justify;
+}
+
+/* line 196, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#paragraph {
+  font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #727272;
+  line-height: 1.75em;
+  font-size: 1.125rem;
+}
+
+/* line 203, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#email {
+  font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+
+/* line 209, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#email_box {
+  font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  background-color: white;
+  cursor: text;
+  padding: 1px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+}
+
+/* line 231, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#subscribe {
+  font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #1eb45d;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 0.4em 0.6em;
+  font-size: 1rem;
+}
+
+/* line 241, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+#fnav {
+  font-family: 'Montserrat-Regular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  font-weight: 550;
+  justify-content: space-around;
+  font-size: 0.95rem;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+/* line 251, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+ul#fnav > li > a:link {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+/* line 257, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+ul#fnav > li {
+  list-style: none;
+}
+
+/* line 261, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/flyn.scss */
+.copyright {
+  font-size: 0.75rem;
+  font-family: 'VarelaRound', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 2em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color: #747474;
+  text-align: center;
+}
+/* line 5, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/home.scss */
+.hindex {
+  background-image: url("/assets/Mountain-6badec1362b505bfa54bca1c9038ab7952e166b079334a0a4e3fccde2a1419a9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 11, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/home.scss */
+.jumbotron {
+  width: 50%;
+  margin-top: 200px;
+  margin-left: 250px;
+  background-color: #CCCCCC;
+  background-image: url("/assets/Moulin-40aa43ff87ccb6b49d9c5548bfe6827857c5ef482f608e2f59313614631f5e45.jpg");
+  background-repeat: no-repeat;
+  image-resolution: from-image;
+  border: 2px solid blue;
+  border-radius: 25px;
+  text-align: center;
+}
+
+/* line 24, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/home.scss */
+#btncheckr {
+  width: 80px;
+  margin-left: 300px;
+  background-color: none;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 25px;
+}
+/* line 31, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/home.scss */
+#btncheckr:visited {
+  border: 2px solid green;
+  color: green;
+}
+/* line 35, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/home.scss */
+#btncheckr:hover {
+  border: 2px solid red;
+  color: red;
+}
+
+/* line 41, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/home.scss */
+#btnflyn {
+  width: 80px;
+  margin-left: 300px;
+  background-color: none;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 25px;
+}
+/* line 48, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/home.scss */
+#btnflyn:visited {
+  border: 2px solid green;
+  color: green;
+}
+/* line 52, /home/fabien/Documents/COURS-THP/Travaux-Pratiques/Semaine_7/2_Mardi/landing-pages/app/assets/stylesheets/home.scss */
+#btnflyn:hover {
+  border: 2px solid red;
+  color: red;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ 

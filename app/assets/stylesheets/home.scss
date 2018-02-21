@@ -1,3 +1,56 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.hindex {
+  background-image: url(asset_path('Mountain.jpeg'));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  width: 50%;
+  margin-top: 200px;
+  margin-left: 250px;
+  background-color: #CCCCCC;
+  background-image: url(asset_path('Moulin.jpeg'));
+  background-repeat: no-repeat;
+  image-resolution: from-image;
+  border: 2px solid blue;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#btncheckr {
+  width: 80px;
+  margin-left: 300px;
+  background-color: none;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 25px;
+  &:visited {
+    border: 2px solid green;
+    color: green;
+  }
+  &:hover {
+    border: 2px solid red;
+    color: red;
+  }
+}
+
+#btnflyn {
+  width: 80px;
+  margin-left: 300px;
+  background-color: none;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 25px;
+  &:visited {
+    border: 2px solid green;
+    color: green;
+  }
+  &:hover {
+    border: 2px solid red;
+    color: red;
+  }
+}
